@@ -1,0 +1,1299 @@
+[{
+        "model": "reservation_system.category",
+        "pk": 1,
+        "fields": {
+            "name": "Action"
+        }
+    },
+    {
+        "model": "reservation_system.category",
+        "pk": 2,
+        "fields": {
+            "name": "Horror"
+        }
+    },
+    {
+        "model": "reservation_system.category",
+        "pk": 3,
+        "fields": {
+            "name": "Romance"
+        }
+    },
+    {
+        "model": "reservation_system.category",
+        "pk": 4,
+        "fields": {
+            "name": "Comedy"
+        }
+    },
+    {
+        "model": "reservation_system.category",
+        "pk": 5,
+        "fields": {
+            "name": "Drama"
+        }
+    },
+    {
+        "model": "reservation_system.category",
+        "pk": 6,
+        "fields": {
+            "name": "Science Fiction"
+        }
+    },
+    {
+        "model": "reservation_system.category",
+        "pk": 7,
+        "fields": {
+            "name": "Mystery"
+        }
+    },
+    {
+        "id": 15,
+        "title": "A Quiet Place",
+        "director": "John Krasinski",
+        "cast": "John Krasinski, Emily Blunt, Millicent Simmonds, Noah Jupe, MORE",
+        "description": "A family struggles for survival in a world where most humans have been killed by blind but noise-sensitive creatures. They are forced to communicate in sign language to keep the creatures at bay.",
+        "duration": 91,
+        "releaseDate": "2021-09-14",
+        "image": "images/aquietplace.jpg",
+        "landscape": "images/aquietplaceL.jpg",
+        "trailer": "https://www.youtube.com/embed/tH-dZY_6-b0?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 2,
+                "name": "Horror"
+            },
+            {
+                "id": 6,
+                "name": "Science Fiction"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 51,
+        "title": "Outside the Wire",
+        "director": "Mikael Håfström",
+        "cast": "Anthony Mackie, Damson Idris, Emily Beecham, Kristina Tonteri-Young, MORE",
+        "description": "In the near future, a drone pilot sent into a war zone finds himself paired up with a top-secret android officer on a mission to stop a nuclear attack.",
+        "duration": 115,
+        "releaseDate": "2021-01-14",
+        "image": "images/outsidethewire.jpg",
+        "landscape": "images/outsidethewireL.jpg",
+        "trailer": "https://www.youtube.com/embed/u8ZsUivELbs?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 2
+    },
+    {
+        "id": 56,
+        "title": "The Midnight Sky",
+        "director": "George Clooney",
+        "cast": "George Clooney, Felicity Jones, Sophie Rundle, Kyle Chandler, MORE",
+        "description": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+        "duration": 122,
+        "releaseDate": "2020-12-08",
+        "image": "images/themidnightsky.jpg",
+        "landscape": "images/themidnightskyL.jpeg",
+        "trailer": "https://www.youtube.com/embed/Gb8ZbP6qAzE?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 47,
+        "title": "The Trial of the Chicago 7",
+        "director": "Aaron Sorkin",
+        "cast": "Sacha Baron Cohen, Eddie Redmayne, Jeremy Strong, Mark Rylance, MORE",
+        "description": "The film is based on the infamous 1969 trial of seven defendants charged by the federal government with conspiracy and more, arising from the countercultural protests in Chicago at the 1968 Democratic National Convention. The trial transfixed the nation and sparked a conversation about mayhem intended to undermine the U.S. government.",
+        "duration": 130,
+        "releaseDate": "2020-09-24",
+        "image": "images/thetrialofthechicago7.jpg",
+        "landscape": "images/thetrialofthechicago7L.png",
+        "trailer": "https://www.youtube.com/embed/FVb6EdKDBfU?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 1,
+        "title": "The Old Guard",
+        "director": "Gina Prince-Bythewood",
+        "cast": "Charlize Theron, Harry Melling, Kiki Layne, Matthias Schoenaerts, MORE",
+        "description": "A group of mercenaries, all centuries-old immortals with the ablity to heal themselves, discover someone is onto their secret, and they must fight to protect their freedom.",
+        "duration": 125,
+        "releaseDate": "2020-09-09",
+        "image": "images/theoldguard.jpg",
+        "landscape": "images/theoldguardL.jpg",
+        "trailer": "https://www.youtube.com/embed/aK-X2d0lJ_s?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 6,
+                "name": "Science Fiction"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 43,
+        "title": "After We Collided",
+        "director": "Roger Kumble",
+        "cast": "Hero Fiennes Tiffin, Josephine Langford, Dylan Sprouse, Candice King, MORE",
+        "description": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
+        "duration": 107,
+        "releaseDate": "2020-09-01",
+        "image": "images/afterwecollided.jpg",
+        "landscape": "images/afterwecollidedL.jpg",
+        "trailer": "https://www.youtube.com/embed/2SvwX3ux_-8?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 36,
+        "title": "The SpongeBob Movie: Sponge on the Run",
+        "director": "Tim Hill",
+        "cast": "Keanu Reeves, Stephen Hillenburg, Snoop Dogg, Danny Trejo, MORE",
+        "description": "When SpongeBob SquarePants' beloved pet snail Gary goes missing, a path of clues leads SpongeBob and his best friend Patrick to the powerful King Poseidon, who has Gary held captive in the Lost City of Atlantic City. On their mission to save Gary, SpongeBob and the Bikini Bottom gang team up for a heroic and hilarious journey, where they discover nothing is stronger than the power of friendship.",
+        "duration": 100,
+        "releaseDate": "2020-08-13",
+        "image": "images/spongebob.jpg",
+        "landscape": "images/spongebobL.jpg",
+        "trailer": "https://www.youtube.com/embed/neBkma9xtjM?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 33,
+        "title": "Work It",
+        "director": "Laura Terruso",
+        "cast": "Sabrina Carpenter, Jordan Fisher, Liza Koshy, Keiynan Lonsdale, MORE",
+        "description": "An awkward 18-year-old achieves near-perfection by sheer hard work. She vows to transform her gawkiness through dance, and refine her skills until she competes at a competition.",
+        "duration": 93,
+        "releaseDate": "2020-08-06",
+        "image": "images/workit.jpg",
+        "landscape": "images/workitL.jpg",
+        "trailer": "https://www.youtube.com/embed/wEhKEec8In4?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 45,
+        "title": "All the Bright Places",
+        "director": "Brett Haley",
+        "cast": "Elle Fanning, Justice Smith, Alexandra Shipp, Keegan-Michael Key, MORE",
+        "description": "After meeting each other, two people struggle with the emotional and physical scars of their past. They discover that even the smallest moments can mean something.",
+        "duration": 108,
+        "releaseDate": "2020-02-27",
+        "image": "images/allthebrightplaces.jpg",
+        "landscape": "images/allthebrightplacesL.jpg",
+        "trailer": "https://www.youtube.com/embed/vtlw2Q6vh6o?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 32,
+        "title": "Like a Boss",
+        "director": "Miguel Arteta",
+        "cast": "Salma Hayek, Tiffany Haddish, Rose Byrne, Seth Rollins, MORE",
+        "description": "Mel and Mia, two friends with different ideals, run a cosmetics company but they soon face a financial crisis. When a business magnate offers to buy them out, their friendship is tested.",
+        "duration": 83,
+        "releaseDate": "2020-01-06",
+        "image": "images/likeaboss.jpg",
+        "landscape": "images/likeabossL.jpg",
+        "trailer": "https://www.youtube.com/embed/geaQCs4oJvQ?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 34,
+        "title": "Jumanji: The Next Level",
+        "director": "Jake Kasdan",
+        "cast": "Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan, MORE",
+        "description": "When Spencer goes missing, the gang returns to Jumanji to travel unexplored territories and help their friend escape the world's most dangerous game.",
+        "duration": 123,
+        "releaseDate": "2019-12-03",
+        "image": "images/jumanjithenextlevel.jpg",
+        "landscape": "images/jumanjithenextlevelL.jpg",
+        "trailer": "https://www.youtube.com/embed/FVd23E5sTuc?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 62,
+        "title": "Twin Murders: The Silence of the White City",
+        "director": "Daniel Calparsoro",
+        "cast": "Belén Rueda, Javier Rey, Itziar Ituño, Aura Garrido, MORE",
+        "description": "A detective returns to Vitoria-Gasteiz, Spain, to investigate murders which mimic those of a serial killer who's about to be released from prison.",
+        "duration": 110,
+        "releaseDate": "2019-11-24",
+        "image": "images/twinmurders.jpg",
+        "landscape": "images/twinmurdersL.jpg",
+        "trailer": "https://www.youtube.com/embed/g9p7-YPoXEA?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 7,
+            "name": "Mystery"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 64,
+        "title": "Into the Labyrinth",
+        "director": "Donato Carrisi",
+        "cast": "Valentina Bellè, Katsiaryna Shulha, Toni Servillo, Dustin Hoffman, MORE",
+        "description": "When a kidnapping victim turns up alive after 15 years, a profiler and a private investigator work to piece together the mystery.",
+        "duration": 130,
+        "releaseDate": "2019-10-29",
+        "image": "images/intothelabyrinth.jpg",
+        "landscape": "images/intothelabyrinthL.jpg",
+        "trailer": "https://www.youtube.com/embed/eFSx22lLxlA?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 7,
+            "name": "Mystery"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 2,
+        "title": "Terminator: Dark Fate",
+        "director": "Tim Miller",
+        "cast": "Linda Hamilton, Arnold Schwarzenegger, Mackenzie Davis, Natalia Reyes, MORE",
+        "description": "When an advanced Terminator is sent into the past, a cyborg and a seasoned female warrior team up to stop the death of a young woman who is fated to ensure the survival of the human race.",
+        "duration": 128,
+        "releaseDate": "2019-10-22",
+        "image": "images/terminatordarkfate.jpg",
+        "landscape": "images/terminatordarkfateL.jpg",
+        "trailer": "https://www.youtube.com/embed/oxy8udgWRmo?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 6,
+                "name": "Science Fiction"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 48,
+        "title": "Miracle in Cell No. 7",
+        "director": "Mehmet Ada Öztekin",
+        "cast": "Aras Bulut Iynemli, Nisa Sofiya Aksongur, Deniz Baysal, Hayal Köseoglu, MORE",
+        "description": "A story of love between a mentally-ill father who was wrongly accused of murder and his six year old daughter.",
+        "duration": 132,
+        "releaseDate": "2019-10-09",
+        "image": "images/miracleincellno7.jpg",
+        "landscape": "images/miracleincellno7L.jpg",
+        "trailer": "https://www.youtube.com/embed/G2wPoBy2JQI?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 38,
+        "title": "The Addams Family",
+        "director": " Conrad Vernon, Greg Tiernan",
+        "cast": "Chloë Grace Moretz, Finn Wolfhard, Oscar Isaac, Charlize Theron, MORE",
+        "description": "The eccentric and macabre Addams family moves to a bland suburb in New Jersey. However, problems arise when their child, Wednesday, befriends the daughter of a reality show host.",
+        "duration": 86,
+        "releaseDate": "2019-10-05",
+        "image": "images/theadamsfamily.jpg",
+        "landscape": "images/theadamsfamilyL.jpg",
+        "trailer": "https://www.youtube.com/embed/Fq_oxnkt8CM?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 4,
+        "title": "Gemini Man",
+        "director": "Ang Lee",
+        "cast": "Will Smith, Mary Elizabeth Winstead, Clive Owen, Benedict Wong, MORE",
+        "description": "Henry is an ageing assassin who finds himself being chased by someone with the ability to predict his moves. He soon discovers that the person is his clone and sets out to discover his origin.",
+        "duration": 117,
+        "releaseDate": "2019-10-02",
+        "image": "images/geminiman.jpg",
+        "landscape": "images/geminimanL.jpg",
+        "trailer": "https://www.youtube.com/embed/AbyJignbSj0?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 5,
+                "name": "Drama"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 49,
+        "title": "The Irishman",
+        "director": "Martin Scorsese",
+        "cast": "Robert De Niro, Al Pacino, Joe Pesci, Harvey Keitel, MORE",
+        "description": "In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.",
+        "duration": 210,
+        "releaseDate": "2019-09-26",
+        "image": "images/theirishman.jpg",
+        "landscape": "images/theirishmanL.png",
+        "trailer": "https://www.youtube.com/embed/RS3aHkkfuEI?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 8,
+        "title": "Rambo: Last Blood",
+        "director": "Adrian Grunberg",
+        "cast": "Sylvester Stallone, Yvette Monreal, Paz Vega, Sergio Peris-Mencheta, MORE",
+        "description": "John Rambo's peaceful life is interrupted when Gabriela, his friend's granddaughter, disappears in Mexico. He decides to free her from the clutches of local cartels, starting a cycle of revenge.",
+        "duration": 99,
+        "releaseDate": "2019-09-17",
+        "image": "images/rambolastblood.jpg",
+        "landscape": "images/rambolastbloodL.jpeg",
+        "trailer": "https://www.youtube.com/embed/km_L0v3C0ms?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 1,
+            "name": "Action"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 22,
+        "title": "Tall Girl",
+        "director": "Nzingha Stewart",
+        "cast": "Ava Michelle, Sabrina Carpenter, Griffin Gluck, Paris Berelc, MORE",
+        "description": "When the tallest girl in high school falls for a handsome foreign exchange student, she becomes embroiled in a surprising love triangle and realizes she's far more than her insecurities about her height have led her to believe.",
+        "duration": 102,
+        "releaseDate": "2019-09-12",
+        "image": "images/tallgirl.jpg",
+        "landscape": "images/tallgirlL.jpg",
+        "trailer": "https://www.youtube.com/embed/NfpXeLVzJIw?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 20,
+        "title": "The Platform",
+        "director": "Galder Gaztelu-Urrutia",
+        "cast": "Alexandra Masangkay, Iván Massagué, Zorion Eguileor, Antonia San Juan, MORE",
+        "description": "In the future, prisoners housed in vertical cells watch as inmates in the upper cells are fed while those below starve.",
+        "duration": 94,
+        "releaseDate": "2019-09-05",
+        "image": "images/theplatform.jpg",
+        "landscape": "images/theplatformL.jpg",
+        "trailer": "https://www.youtube.com/embed/RlfooqeZcdY?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 2,
+            "name": "Horror"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 10,
+        "title": "Saaho",
+        "director": "Sujeeth",
+        "cast": "Prabhas, Shraddha Kapoor, Neil Nitin Mukesh, Chunky Pandey, MORE",
+        "description": "An undercover agent and his partner go after a thief who has stolen 8,000 crore rupees. Soon, they realise that the case is linked to the death of a crime lord and an emerging gang war.",
+        "duration": 170,
+        "releaseDate": "2019-08-29",
+        "image": "images/saaho.jpg",
+        "landscape": "images/saahoL.jpg",
+        "trailer": "https://www.youtube.com/embed/lD0-ztCFydA?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 1,
+            "name": "Action"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 63,
+        "title": "Secret Obsession",
+        "director": "Peter Sullivan",
+        "cast": "Brenda Song, Mike Vogel, Dennis Haysbert, Daniel Booko, MORE",
+        "description": "When Jennifer wakes up with amnesia after a traumatic attack, her doting husband cares for her. But she soon realises that the danger is far from over.",
+        "duration": 97,
+        "releaseDate": "2019-07-17",
+        "image": "images/secretobsession.jpg",
+        "landscape": "images/secretobsessionL.jpg",
+        "trailer": "https://www.youtube.com/embed/Nc6loZU3kjQ?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 7,
+            "name": "Mystery"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 59,
+        "title": "Murder Mystery",
+        "director": "Kyle Newacheck",
+        "cast": "Adam Sandler, Jennifer Aniston, Luke Evans, Gemma Arterton, MORE",
+        "description": "A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage. A chance encounter leads to them being framed for the murder of an elderly billionaire.",
+        "duration": 97,
+        "releaseDate": "2019-06-13",
+        "image": "images/murdermystery.jpg",
+        "landscape": "images/murdermysteryL.jpeg",
+        "trailer": "https://www.youtube.com/embed/VuO9QoIUnKU?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 7,
+            "name": "Mystery"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 7,
+        "title": "X-Men: Dark Phoenix",
+        "director": "Simon Kinberg",
+        "cast": "Sophie Turner, James McAvoy, Jessica Chastain, Michael Fassbender, MORE",
+        "description": "After a mishap, Jean Grey is struck by a powerful ray of energy which she absorbs into her body, turning her into an uncontrollable liability for the X-Men.",
+        "duration": 114,
+        "releaseDate": "2019-06-04",
+        "image": "images/darkphoenix.jpeg",
+        "landscape": "images/darkphoenixL.jpg",
+        "trailer": "https://www.youtube.com/embed/1-q8C_c-nlM?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 6,
+                "name": "Science Fiction"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 61,
+        "title": "The Poison Rose",
+        "director": "Francesco Cinquemani, Luca Giliberto, George Gallo",
+        "cast": "Ella Bleu Travolta, Brendan Fraser, Famke Janssen, Morgan Freeman, MORE",
+        "description": "A hard-drinking detective takes on what looks to be a routine missing person case, only to be drawn into a complex interwoven web of crimes, suspects and dead bodies.",
+        "duration": 97,
+        "releaseDate": "2019-05-22",
+        "image": "images/thepoisonrose.jpg",
+        "landscape": "images/thepoisonroseL.jpg",
+        "trailer": "https://www.youtube.com/embed/P6So71lcVdI?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 7,
+            "name": "Mystery"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 26,
+        "title": "Portrait of a Lady on Fire",
+        "director": "Céline Sciamma",
+        "cast": "Adèle Haenel, Noémie Merlant, Luàna Bajrami, Valeria Golino, MORE",
+        "description": "France, 1770. Marianne, a painter, is commissioned to do the wedding portrait of Héloïse, a young woman who has just left the convent. Héloïse is a reluctant bride to be and Marianne must paint her without her knowing. She observes her by day, to paint her secretly.",
+        "duration": 119,
+        "releaseDate": "2019-05-18",
+        "image": "images/portraitofaladyonfire.jpg",
+        "landscape": "images/portraitofaladyonfireL.jpg",
+        "trailer": "https://www.youtube.com/embed/R-fQPTwma9o?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 55,
+        "title": "Aquaman",
+        "director": "James Wan",
+        "cast": "Jason Momoa, Amber Heard, Patrick Wilson, Nicole Kidman, MORE",
+        "description": "Half-human, half-Atlantean Arthur is born with the ability to communicate with marine creatures. He goes on a quest to retrieve the legendary Trident of Atlan and protect the water world.",
+        "duration": 142,
+        "releaseDate": "2018-12-12",
+        "image": "images/aquaman.jpg",
+        "landscape": "images/aquamanL.jpg",
+        "trailer": "https://www.youtube.com/embed/EwXria8mVxM?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 13,
+        "title": "Bird Box",
+        "director": "Susanne Bier",
+        "cast": "Sandra Bullock, Trevante Rhodes, Sarah Paulson, MORE",
+        "description": "When a mysterious force decimates the population, only one thing is certain -- if you see it, you die. The survivors must now avoid coming face to face with an entity that takes the form of their worst fears. Searching for hope and a new beginning, a woman and her children embark on a dangerous journey through the woods and down a river to find the one place that may offer sanctuary. To make it, they'll have to cover their eyes from the evil that chases them -- and complete the trip blindfolded.",
+        "duration": 124,
+        "releaseDate": "2018-11-11",
+        "image": "images/birdbox.jpg",
+        "landscape": "images/birdboxL.jpg",
+        "trailer": "https://www.youtube.com/embed/INJ2bPFy108?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 2,
+                "name": "Horror"
+            },
+            {
+                "id": 6,
+                "name": "Science Fiction"
+            },
+            {
+                "id": 7,
+                "name": "Mystery"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 21,
+        "title": "A Star is Born",
+        "director": "Bradley Cooper",
+        "cast": "Bradley Cooper, Lady Gaga, Sam Elliott, Dave Chappelle, MORE",
+        "description": "After falling in love with struggling artist Ally, Jackson, a musician, coaxes her to follow her dreams, while he battles with alcoholism and his personal demons.",
+        "duration": 134,
+        "releaseDate": "2018-11-10",
+        "image": "images/astarisborn.jpg",
+        "landscape": "images/astarisbornL.jpg",
+        "trailer": "https://www.youtube.com/embed/nSbzyEJ8X9E?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 3,
+                "name": "Romance"
+            },
+            {
+                "id": 5,
+                "name": "Drama"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 14,
+        "title": "The Nun",
+        "director": "Corin Hardy",
+        "cast": "Taissa Farmiga, Bonnie Aarons, Demián Bichir, MORE",
+        "description": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. Together, they uncover the order's unholy secret. Risking not only their lives but their faith and their very souls, they confront a malevolent force in the form of a demonic nun.",
+        "duration": 96,
+        "releaseDate": "2018-09-03",
+        "image": "images/thenun.jpg",
+        "landscape": "images/thenunL.jpeg",
+        "trailer": "https://www.youtube.com/embed/pzD9zGcUNrw?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 2,
+            "name": "Horror"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 24,
+        "title": "To All the Boys I've Loved Before",
+        "director": "Susan Johnson",
+        "cast": "Lana Condor, Noah Centineo, Janel Parrish, Anna Cathcart, MORE",
+        "description": "Shy high school junior Lara Jean Covey writes letters to boys she feels an intense passion for before locking them away in her closet.  One night, Lara Jean falls asleep on the couch while hanging out with her little sister, Kitty, who sneaks into her room and finds her collection of letters. The following Monday at school, Lara Jean is confronted by a former crush, Peter Kavinsky. He received the letter she had written him, causing her to faint. After waking up, she sees Josh approaching with his letter, and in a moment of panic, Lara Jean kisses Peter to throw Josh off before running off. Lara Jean then encounters another recipient of a letter, Lucas, who is gay, as she begins to realize that all the letters have been mailed out.",
+        "duration": 99,
+        "releaseDate": "2018-08-16",
+        "image": "images/toalltheboysivelovedbefore.jpg",
+        "landscape": "images/toalltheboysivelovedbeforeL.jpg",
+        "trailer": "https://www.youtube.com/embed/L76SvHvaSug?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 3
+    },
+    {
+        "id": 57,
+        "title": "Extinction",
+        "director": "Ben Young",
+        "cast": "Michael Peña, Lizzy Caplan, Israel Broussard, Mike Colter, MORE",
+        "description": "A man's home life starts to suffer when he has recurring nightmares about a destructive and unknown force. He must soon find the strength to save his wife and two daughters when extraterrestrials launch a devastating attack on the planet.",
+        "duration": 95,
+        "releaseDate": "2018-07-26",
+        "image": "images/extinction.jpg",
+        "landscape": "images/extinctionL.jpeg",
+        "trailer": "https://www.youtube.com/embed/4-VjHja3RZA?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 40,
+        "title": "Ocean's 8",
+        "director": "Gary Ross",
+        "cast": "Sandra Bullock, Cate Blanchett, Anne Hathaway, Rihanna, MORE",
+        "description": "Debbie Ocean is released from jail after serving a prison sentence. She assembles a special crew of seven women to steal a diamond necklace, worth 150 million dollars, from the Met Gala.",
+        "duration": 111,
+        "releaseDate": "2018-06-04",
+        "image": "images/oceans8.jpg",
+        "landscape": "images/oceans8L.jpg",
+        "trailer": "https://www.youtube.com/embed/n5LoVcVsiSQ?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 35,
+        "title": "The Kissing Booth",
+        "director": "Vince Marcello",
+        "cast": "Joey King, Jacob Elordi, Meganne Young, Carson White, MORE",
+        "description": "A high school student finds herself face-to-face with her long-term crush when she signs up to run a kissing booth at the spring carnival.",
+        "duration": 110,
+        "releaseDate": "2018-05-10",
+        "image": "images/thekissingbooth.jpg",
+        "landscape": "images/thekissingboothL.jpg",
+        "trailer": "https://www.youtube.com/embed/hifvjuwsqK8?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 41,
+        "title": "The Greatest Showman",
+        "director": "Michael Gracey",
+        "cast": "Hugh Jackman, Zac Efron, Zendaya, Keala Settle, MORE",
+        "description": "P T Barnum becomes a worldwide sensation in the show business. His imagination and innovative ideas take him to the top of his game.",
+        "duration": 106,
+        "releaseDate": "2017-12-07",
+        "image": "images/thegreatestshowman.jpg",
+        "landscape": "images/thegreatestshowmanL.jpg",
+        "trailer": "https://www.youtube.com/embed/FHPwzZzLLnM?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 50,
+        "title": "Wonder",
+        "director": "Stephen Chbosky",
+        "cast": "Jacob Tremblay, Julia Roberts, Owen Wilson, Noah Jupe, MORE",
+        "description": "August, a boy with a rare facial abnormality, enters the fifth grade in a private school where he befriends Jack. The two form a strong bond while facing the bullies in their class.",
+        "duration": 113,
+        "releaseDate": "2017-11-13",
+        "image": "images/wonder.jpg",
+        "landscape": "images/wonderL.jpg",
+        "trailer": "https://www.youtube.com/embed/ASAGdtAJPnU?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 12,
+        "title": "It",
+        "director": "M. Night ShyamalanAndrés Muschietti",
+        "cast": "Finn Wolfhard, Bill Skarsgård, Jaeden Martell, Sophia Lillis, MORE",
+        "description": "Seven helpless and bullied children are forced to face their worst nightmares when Pennywise, a shape-shifting clown, reappears. The clown, an ancient evil torments children before feeding on them.",
+        "duration": 135,
+        "releaseDate": "2017-09-04",
+        "image": "images/it.jpg",
+        "landscape": "images/itL.jpg",
+        "trailer": "https://www.youtube.com/embed/xKJmEC5ieOk?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 2,
+                "name": "Horror"
+            },
+            {
+                "id": 5,
+                "name": "Drama"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 17,
+        "title": "Veronica",
+        "director": "Paco Plaza",
+        "cast": "Sandra Escacena, Iván Chavero, Claudia Placer, Bruna González, MORE",
+        "description": "During a solar eclipse, young Verónica and her friends want to summon the spirit of Verónica's father using an Ouija board. However, during the session she loses consciousness and soon it becomes clear that evil demons have arrived.",
+        "duration": 106,
+        "releaseDate": "2017-08-24",
+        "image": "images/veronica.jpg",
+        "landscape": "images/veronicaL.jpg",
+        "trailer": "https://www.youtube.com/embed/lQW5I5tCy28?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 2,
+                "name": "Horror"
+            },
+            {
+                "id": 5,
+                "name": "Drama"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 16,
+        "title": "Death Note",
+        "director": "Adam Wingard",
+        "cast": "Nat Wolff, LaKeith Stanfield, Margaret Qualley, Willem Dafoe, MORE",
+        "description": "A high school student discovers a supernatural notebook that has deadly powers. He can kill anyone he wishes simply by inscribing their name within its pages. Intoxicated with his new power, he begins to eliminate those he deems unworthy of life.",
+        "duration": 101,
+        "releaseDate": "2017-07-19",
+        "image": "images/deathnote.jpg",
+        "landscape": "images/deathnoteL.jpg",
+        "trailer": "https://www.youtube.com/embed/gvxNaSIB_WI?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 2,
+                "name": "Horror"
+            },
+            {
+                "id": 7,
+                "name": "Mystery"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 53,
+        "title": "Spider-Man: Homecoming",
+        "director": "Jon Watts",
+        "cast": "Tom Holland, Zendaya, Michael Keaton, Marisa Tomei, MORE",
+        "description": "Peter Parker tries to stop the Vulture from selling weapons made with advanced Chitauri technology while trying to balance his life as an ordinary high school student.",
+        "duration": 133,
+        "releaseDate": "2017-06-27",
+        "image": "images/spidermanhomecoming.jpg",
+        "landscape": "images/spidermanhomecomingL.jpg",
+        "trailer": "https://www.youtube.com/embed/QY_m-uV3xjo?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 39,
+        "title": "Baywatch",
+        "director": "Seth Gordon",
+        "cast": "Zac Efron, Alexandra Daddario, Dwayne Johnson, Kelly Rohrbach, MORE",
+        "description": "Lifeguard Mitch Buchannon and his team discover a drug racket involving businesswoman Victoria Leeds and decide to unearth the truth and bring the perpetrators to justice.",
+        "duration": 121,
+        "releaseDate": "2017-05-11",
+        "image": "images/baywatch.jpg",
+        "landscape": "images/baywatchL.jpg",
+        "trailer": "https://www.youtube.com/embed/FaC-LNlLHIY?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 11,
+        "title": "Split",
+        "director": "M. Night Shyamalan",
+        "cast": "James McAvoy, Anya Taylor-Joy, M. Night Shyamalan, MORE",
+        "description": "Kevin, who is suffering from dissociative identity disorder and has 23 alter egos, kidnaps three teenagers. They must figure out his friendly personas before he unleashes his 24th personality.",
+        "duration": 117,
+        "releaseDate": "2017-01-18",
+        "image": "images/split.jpg",
+        "landscape": "images/splitL.jpg",
+        "trailer": "https://www.youtube.com/embed/4eHur2tRBx4?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 2,
+                "name": "Horror"
+            },
+            {
+                "id": 7,
+                "name": "Mystery"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 23,
+        "title": "La La Land",
+        "director": "Damien Chazelle",
+        "cast": "Ryan Gosling, Emma Stone, John Legend, Jessica Rothe, MORE",
+        "description": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+        "duration": 128,
+        "releaseDate": "2016-08-30",
+        "image": "images/lalaland.jpg",
+        "landscape": "images/lalalandL.jpg",
+        "trailer": "https://www.youtube.com/embed/0pdqf4P9MB8?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 3,
+        "title": "Suicide Squad",
+        "director": "David Ayer",
+        "cast": "Margot Robbie, Viola Davis, Jai Courtney, Joel Kinnaman, MORE",
+        "description": "Amanda Waller assembles a team of imprisoned supervillains to execute dangerous black ops missions. When an ancient witch threatens to destroy mankind the squad is sent to stop her.",
+        "duration": 137,
+        "releaseDate": "2016-07-31",
+        "image": "images/suicidesquad.jpg",
+        "landscape": "images/suicidesquadL.jpg",
+        "trailer": "https://www.youtube.com/embed/CmRih_VtVAs?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 6,
+                "name": "Science Fiction"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 65,
+        "title": "Nerve",
+        "director": "Ariel Schulman, Henry Joost",
+        "cast": "Emma Roberts, Dave Franco, Emily Meade, Machine Gun Kelly, MORE",
+        "description": "Industrious high school senior Vee Delmonico (Emma Roberts) is tired of living life on the sidelines. Pressured by her friends, Vee decides to join Nerve, a popular online game that challenges players to accept a series of dares. It's not long before the adrenaline-fueled competition requires her to perform increasingly dangerous stunts. When Nerve begins to take a sinister turn, Vee finds herself in a high-stakes finale that will ultimately determine her entire future.",
+        "duration": 97,
+        "releaseDate": "2016-07-26",
+        "image": "images/nerve.jpg",
+        "landscape": "images/nerveL.jpg",
+        "trailer": "https://www.youtube.com/embed/2PR9MOPTI7g?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 7,
+            "name": "Mystery"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 42,
+        "title": "Me Before You",
+        "director": "Thea Sharrock",
+        "cast": "Emilia Clarke, Sam Claflin, Matthew Lewis, Charles Dance, MORE",
+        "description": "After becoming unemployed, Louisa Clark is forced to accept one which requires her to take care of Will Traynor, a paralysed man. The two of them soon bond with each other.",
+        "duration": 111,
+        "releaseDate": "2016-05-22",
+        "image": "images/mebeforeyou.jpg",
+        "landscape": "images/mebeforeyouL.jpg",
+        "trailer": "https://www.youtube.com/embed/J-lcPRmI6jY?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 19,
+        "title": "The Conjuring 2",
+        "director": "James Wan",
+        "cast": "Vera Farmiga, Patrick Wilson, Madison Wolfe, Frances O'Connor, MORE",
+        "description": "Peggy, a single mother of four children, seeks the help of occult investigators Ed and Lorraine Warren when she and her children witness strange, paranormal events in their house.",
+        "duration": 134,
+        "releaseDate": "2016-05-12",
+        "image": "images/theconjuring2.jpg",
+        "landscape": "images/theconjuring2L.jpg",
+        "trailer": "https://www.youtube.com/embed/GHw32DSTIvY?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 2,
+                "name": "Horror"
+            },
+            {
+                "id": 7,
+                "name": "Mystery"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 46,
+        "title": "The Revenant",
+        "director": "Alejandro González Iñárritu",
+        "cast": "Leonardo DiCaprio, Tom Hardy, Will Poulter, Domhnall Gleeson, MORE",
+        "description": "Hugh Glass, a legendary frontiersman, is severely injured in a bear attack and is abandoned by his hunting crew. He uses his skills to survive and take revenge on his companion who betrayed him.",
+        "duration": 156,
+        "releaseDate": "2015-12-15",
+        "image": "images/therevenant.jpg",
+        "landscape": "images/therevenantL.jpg",
+        "trailer": "https://www.youtube.com/embed/fFD8-YMMJwk?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 54,
+        "title": "Fantastic Four",
+        "director": "Josh Trank",
+        "cast": "Kate Mara, Michael B. Jordan, Miles Teller, Jamie Bell, MORE",
+        "description": "Four youngsters gain unique superpowers after being teleported to an alternate universe. They must unite and use their powers to fight against a computer mechanic, who transforms into an evil doctor.",
+        "duration": 107,
+        "releaseDate": "2015-08-05",
+        "image": "images/fantastic4.jpg",
+        "landscape": "images/fantastic4L.jpg",
+        "trailer": "https://www.youtube.com/embed/fpjw6QZ4H7I?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 6,
+        "title": "San Andreas",
+        "director": "Brad Peyton",
+        "cast": "Dwayne Johnson, Alexandra Daddario, Carla Gugino, Paul Giamatti, MORE",
+        "description": "Following a massive earthquake, Ray, a rescue chopper pilot, and his soon to be ex-wife try to find and save their daughter before another disaster strikes.",
+        "duration": 114,
+        "releaseDate": "2015-05-26",
+        "image": "images/sanandreas.jpg",
+        "landscape": "images/sanandreasL.jpg",
+        "trailer": "https://www.youtube.com/embed/xQr_ojji2Ck?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 5,
+                "name": "Drama"
+            }
+        ],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 5,
+        "title": "John Wick",
+        "director": "Chad Stahelski",
+        "cast": "Keanu Reeves, Ian McShane, Lance Reddick, Derek Kolstad, MORE",
+        "description": "Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster Iosef Tarasov (Alfie Allen) and his thugs steal John's prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, Iosef's father (Michael Nyqvist) -- John's former colleague -- puts a huge bounty on John's head.",
+        "duration": 102,
+        "releaseDate": "2014-10-29",
+        "image": "images/johnwick.jpg",
+        "landscape": "images/johnwickL.jpg",
+        "trailer": "https://www.youtube.com/embed/l1g0fn5Nm_g?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+                "id": 1,
+                "name": "Action"
+            },
+            {
+                "id": 7,
+                "name": "Mystery"
+            }
+        ],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 18,
+        "title": "Ouija",
+        "director": "Stiles White",
+        "cast": "Olivia Cooke, Shelley Hennig, Daren Kagasoff, Ana Coto, MORE",
+        "description": "Following the sudden death of her best friend, Debbie, Laine finds an antique Ouija board in Debbie's room and tries to use it to say goodbye. Instead, she makes contact with a spirit that calls itself DZ. As strange events begin to occur, Laine enlists others to help her determine DZ's identity and what it wants. As the friends delve deeper, they find that Debbie's mysterious death was not unique, and that they will suffer the same fate unless they learn how to close the portal they've opened.",
+        "duration": 89,
+        "releaseDate": "2014-10-22",
+        "image": "images/ouija.jpg",
+        "landscape": "images/ouijaL.jpg",
+        "trailer": "https://www.youtube.com/embed/bHxftMH_QE4?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 2,
+            "name": "Horror"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 52,
+        "title": "Lucy",
+        "director": "Luc Besson",
+        "cast": "Scarlett Johansson, Luc Besson, Morgan Freeman, Amr Waked, MORE",
+        "description": "Lucy gains extraordinary physical and mental capabilities after the effects of a performance-enhancing drug set in. Soon, she evolves into a warrior bent on destroying those who held her captive.",
+        "duration": 90,
+        "releaseDate": "2014-08-13",
+        "image": "images/lucy.jpg",
+        "landscape": "images/lucyL.jpg",
+        "trailer": "https://www.youtube.com/embed/l7zAV_MDC68?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 44,
+        "title": "The Fault in Our Stars",
+        "director": "Josh Boone",
+        "cast": "Shailene Woodley, Ansel Elgort, Nat Wolff, Willem Dafoe, MORE",
+        "description": "Two cancer-afflicted teenagers Hazel and Augustus meet at a cancer support group. The two of them embark on a journey to visit a reclusive author in Amsterdam.",
+        "duration": 133,
+        "releaseDate": "2014-06-04",
+        "image": "images/thefaultinourstars.jpg",
+        "landscape": "images/thefaultinourstarsL.jpg",
+        "trailer": "https://www.youtube.com/embed/qcKSPo1XNMs?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 5,
+            "name": "Drama"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 60,
+        "title": "Now You See Me",
+        "director": "Louis Leterrier",
+        "cast": "Jesse Eisenberg, Dave Franco, Mark Ruffalo, Woody Harrelson, MORE",
+        "description": "Four street magicians, Daniel, Merritt, Henley and Jack, ransack a huge amount of money belonging to insurance baron Arthur Tressler while being chased by FBI agent Dylan and Interpol agent Alma.",
+        "duration": 125,
+        "releaseDate": "2013-05-20",
+        "image": "images/nowyouseeme.jpg",
+        "landscape": "images/nowyouseemeL.jpg",
+        "trailer": "https://www.youtube.com/embed/kMrUHV0VJe4?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 7,
+            "name": "Mystery"
+        }],
+        "status": "AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 58,
+        "title": "Oblivion",
+        "director": "Joseph Kosinski",
+        "cast": "Olga Kurylenko, Tom Cruise, Andrea Riseborough, Morgan Freeman, MORE",
+        "description": "Jack Harper, a drone repairman stationed on Earth that has been ravaged by war with extraterrestrials, questions his identity after rescuing the woman who keeps appearing in his dreams.",
+        "duration": 124,
+        "releaseDate": "2013-04-10",
+        "image": "images/oblivion.jpg",
+        "landscape": "images/oblivionL.jpg",
+        "trailer": "https://www.youtube.com/embed/j7ldL1366UQ?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 6,
+            "name": "Science Fiction"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 28,
+        "title": "Les Misérables",
+        "director": "Tom Hooper",
+        "cast": "Anne Hathaway, Hugh Jackman, Russell Crowe, Eddie Redmayne, MORE",
+        "description": "Jean Valjean, a prisoner, breaks parole in order to start life anew. He soon becomes the caretaker of a young girl but his past comes back to catch up with him.",
+        "duration": 160,
+        "releaseDate": "2013-01-02",
+        "image": "images/lesmiserables.jpg",
+        "landscape": "images/lesmiserablesL.jpg",
+        "trailer": "https://www.youtube.com/embed/iHm7IG2SYHg?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 27,
+        "title": "Friends with Benefits",
+        "director": "Will Gluck",
+        "cast": "Mila Kunis, Justin Timberlake, Jenna Elfman, Patricia Clarkson, MORE",
+        "description": "Jamie, a New York-based headhunter, gets Dylan to take a job at GQ. They soon become friends but things get complicated after the individually jaded lovers add sex to their relationship.",
+        "duration": 109,
+        "releaseDate": "2011-07-17",
+        "image": "images/friendswithbenefits.jpg",
+        "landscape": "images/friendswithbenefitsL.jpg",
+        "trailer": "https://www.youtube.com/embed/ZJRIHjlEqd8?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 37,
+        "title": "Bridesmaids",
+        "director": "Paul Feig",
+        "cast": "Melissa McCarthy, Kristen Wiig, Maya Rudolph, Rose Byrne, MORE",
+        "description": "Annie, a jobless chef, is asked by her best friend, Lillian, to be her maid of honour. Issues evolve when she ruins the wedding rituals in a rage of conflict with one of the bridesmaids.",
+        "duration": 132,
+        "releaseDate": "2011-04-27",
+        "image": "images/bridesmaids.jpg",
+        "landscape": "images/bridesmaidsL.jpg",
+        "trailer": "https://www.youtube.com/embed/RyI5ihZNJXU?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 29,
+        "title": "Love & Other Drugs",
+        "director": "Edward Zwick",
+        "cast": "Anne Hathaway, Jake Gyllenhaal, Gabriel Macht, Hank Azaria, MORE",
+        "description": "Pharmaceutical sales representative and serial womaniser Jake Randall meets his match in Maggie, a young woman who suffers from early-onset Parkinson's disease, just as his career begins to skyrocket.",
+        "duration": 112,
+        "releaseDate": "2010-11-03",
+        "image": "images/loveandotherdrugs.jpg",
+        "landscape": "images/loveandotherdrugsL.jpg",
+        "trailer": "https://www.youtube.com/embed/h6w7Dh-QxzY?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 31,
+        "title": "Easy A",
+        "director": "Will Gluck",
+        "cast": "Emma Stone, Amanda Bynes, Penn Badgley, Stanley Tucci, MORE",
+        "description": "While Olive lies to her best friend about losing her virginity to one of the college boys, a girl overhears their conversation. Soon, her story spreads across the entire school like wildfire.",
+        "duration": 92,
+        "releaseDate": "2010-10-27",
+        "image": "images/easya.jpg",
+        "landscape": "images/easyaL.jpg",
+        "trailer": "https://www.youtube.com/embed/eCRbC6pq0LA?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 4,
+            "name": "Comedy"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 25,
+        "title": "Twilight",
+        "director": "Catherine Hardwicke",
+        "cast": "Robert Pattinson, Kristen Stewart, Taylor Lautner, Nikki Reed, MORE",
+        "description": "When Bella Swan relocates to Forks, Washington, to live with her father, she meets a mysterious Edward Cullen to whom she finds herself drawn. Later, she discovers that he is a vampire.",
+        "duration": 126,
+        "releaseDate": "2008-12-03",
+        "image": "images/twilight.jpg",
+        "landscape": "images/twilightL.jpg",
+        "trailer": "https://www.youtube.com/embed/RHtluksWi44?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 9,
+        "title": "Assassin's Creed",
+        "director": "Justin Kurzel",
+        "cast": "Michael Fassbender, Marion Cotillard, Jeremy Irons, MORE",
+        "description": "With the help of technology, Callum learns that he is a descendant of a dangerous society. He travels back in time to learn about his ancestors and acquire skills to defeat an evil organisation.",
+        "duration": 140,
+        "releaseDate": "2007-11-12",
+        "image": "images/assassinscreed.jpg",
+        "landscape": "images/assassinscreedL.jpg",
+        "trailer": "https://www.youtube.com/embed/2hoAkqXonJU?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 1,
+            "name": "Action"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    },
+    {
+        "id": 30,
+        "title": "Titanic",
+        "director": "James Cameron",
+        "cast": "Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, MORE",
+        "description": "Seventeen-year-old Rose hails from an aristocratic family and is set to be married. When she boards the Titanic, she meets Jack Dawson, an artist, and falls in love with him.",
+        "duration": 210,
+        "releaseDate": "1998-01-31",
+        "image": "images/titanic.jpg",
+        "landscape": "images/titanicL.jpg",
+        "trailer": "https://www.youtube.com/embed/cIJ8ma0kKtY?autoplay=1&mute=1&enablejsapi=1",
+        "categories": [{
+            "id": 3,
+            "name": "Romance"
+        }],
+        "status": "NOT_AVAILABLE",
+        "viewers": 0
+    }
+]
